@@ -8,3 +8,51 @@ elements-view {
   padding: 10px;
   border-bottom: 1px solid @c-gray;
 }
+
+.elements-view__items {
+  border-top: 1px solid @c-gray;
+}
+.elements-view__button {
+  padding: 10px;
+}
+.item {
+  padding: 0 10px;
+  border-bottom: 1px solid @c-gray;
+  display: flex;
+  align-items: center;
+}
+.item span {
+  text-overflow: ellipsis;
+}
+.item:hover {
+  background-color: #AAAAAA;
+}
+.button {
+  width: 100%;
+  background: #FFFFFF;
+  border: 2px solid #222222;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.button:hover {
+  background: #DDDDDD;
+  border-color: #AAAAAA;
+}
+.btn1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 56px;
+  top: calc(50% - 20px/2);
+}
+.btn2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 24px;
+  top: calc(50% - 20px/2);
+}
+.btn1, .btn2 {
+  background-color: #AAAAAA;
+  display: none;
+}
